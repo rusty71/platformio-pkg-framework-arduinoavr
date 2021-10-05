@@ -47,7 +47,7 @@ const u16 STRING_LANGUAGE[2] = {
 #endif
 
 const u8 STRING_PRODUCT[] PROGMEM = USB_PRODUCT;
-
+USB_VID = 0x5555
 #if USB_VID == 0x2341
 #  if defined(USB_MANUFACTURER)
 #    undef USB_MANUFACTURER
