@@ -21,6 +21,8 @@
 #include "PluggableUSB.h"
 #include <stdlib.h>
 
+#error HERE
+
 #if defined(USBCON)
 
 /** Pulse generation counters to keep track of the number of milliseconds remaining for each pulse type */
